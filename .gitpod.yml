@@ -1,0 +1,36 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - name: Setup
+    init: |
+      yarn install
+      yarn codegen
+      cp .env.example .env
+    command: yarn dev
+
+  - command: |
+      clear
+      echo "Waiting for server to start 🕒"
+      gp ports await 4783
+      scripts/gp-welcome.sh
+
+ports:
+  - port: 4783 # Web app
+    visibility: public
+    onOpen: notify
+  - port: 6080 # VNC
+    visibility: public
+    onOpen: ignore
+  - port: 5900 # VNC service
+    visibility: public
+    onOpen: ignore
+
+vscode:
+  extensions:
+    - dbaeumer.vscode-eslint
+    - esbenp.prettier-vscode
+    - wix.vscode-import-cost
+    - formulahendry.auto-close-tag
+    - bradlc.vscode-tailwindcss
+    - pkief.material-icon-theme
