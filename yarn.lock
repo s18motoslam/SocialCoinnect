@@ -4196,10 +4196,10 @@ core-js-pure@^3.20.2:
   resolved "https://registry.yarnpkg.com/core-js-pure/-/core-js-pure-3.24.1.tgz#8839dde5da545521bf282feb7dc6d0b425f39fd3"
   integrity sha512-r1nJk41QLLPyozHUUPmILCEMtMw24NG4oWK6RbsDdjzQgg9ZvrUsPBj1MnG0wXXp1DCDU6j+wUvEmBSrtRbLXg==
 
-core-js@^3.22.0:
-  version "3.24.1"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.24.1.tgz#cf7724d41724154010a6576b7b57d94c5d66e64f"
-  integrity sha512-0QTBSYSUZ6Gq21utGzkfITDylE8jWC9Ne1D2MrhvlsZBI1x39OdDIVbzSqtgMndIy6BlHxBXpMGqzZmnztg2rg==
+core-js@^3.26.1:
+  version "3.35.1"
+  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.35.1.tgz#9c28f8b7ccee482796f8590cc8d15739eaaf980c"
+  integrity sha512-IgdsbxNyMskrTFxa9lWHyMwAJU5gXOPP+1yO+K59d50VLVAIDAbs7gIv705KzALModfK3ZrSZTPNpC0PQgIZuw==
 
 core-util-is@1.0.2:
   version "1.0.2"
@@ -8678,20 +8678,20 @@ pkg-dir@^3.0.0:
   dependencies:
     find-up "^3.0.0"
 
-plyr-react@^5.1.0:
-  version "5.1.0"
-  resolved "https://registry.yarnpkg.com/plyr-react/-/plyr-react-5.1.0.tgz#b080261103d2fbf4e8a151e9d25431201e1bec59"
-  integrity sha512-N0qIuN1wZZzpKUXngtNeZwTiWqvOb6qAzqcfMI48rLkRJGM5xM5MRWILd3hW1PWPbVBKsAH4Ged32ZZhkJVbXA==
+plyr-react@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/plyr-react/-/plyr-react-5.3.0.tgz#e2386e57563872ef6cc2c9d6d5a578ac2daac4b6"
+  integrity sha512-m36/HrpHwg1N2rq3E31E8/kpAH55vk6qHUg17MG4uu9jbWYxnkN39lLmZQwxW7/qpDPfW5aGUJ6R3u23V0R3zA==
   dependencies:
-    plyr "^3.7.2"
-    react-aptor "^2.0.0-alpha.1"
+    plyr "^3.7.7"
+    react-aptor "^2.0.0"
 
-plyr@^3.7.2:
-  version "3.7.2"
-  resolved "https://registry.yarnpkg.com/plyr/-/plyr-3.7.2.tgz#183d2397e7401a577700c8319fe133692b4aff54"
-  integrity sha512-I0ZC/OI4oJ0iWG9s2rrnO0YFO6aLyrPiQBq9kum0FqITYljwTPBbYL3TZZu8UJQJUq7tUWN18Q7ACwNCkGKABQ==
+plyr@^3.7.7:
+  version "3.7.8"
+  resolved "https://registry.yarnpkg.com/plyr/-/plyr-3.7.8.tgz#b79bccc23687705b5d9a283b2a88c124bf7471ed"
+  integrity sha512-yG/EHDobwbB/uP+4Bm6eUpJ93f8xxHjjk2dYcD1Oqpe1EcuQl5tzzw9Oq+uVAzd2lkM11qZfydSiyIpiB8pgdA==
   dependencies:
-    core-js "^3.22.0"
+    core-js "^3.26.1"
     custom-event-polyfill "^1.0.7"
     loadjs "^4.2.0"
     rangetouch "^2.0.1"
@@ -9014,10 +9014,10 @@ raw-body@2.5.1:
     iconv-lite "0.4.24"
     unpipe "1.0.0"
 
-react-aptor@^2.0.0-alpha.1:
-  version "2.0.0-alpha.1"
-  resolved "https://registry.yarnpkg.com/react-aptor/-/react-aptor-2.0.0-alpha.1.tgz#d3f228c67aaffaf7ac9425dbca0b98fb49d593cd"
-  integrity sha512-FbvxQKsZMUZcLr2WdrQEmxH0kifsN4N+v6YdL1g3At03zouJCEcPXv+o+bhP3Ci3ya4QPvNHK/bpbrCzuKWOMw==
+react-aptor@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/react-aptor/-/react-aptor-2.0.0.tgz#d78235dbcdf28889dc9a6c179035d6ca8bd7cfa1"
+  integrity sha512-YnCayokuhAwmBBP4Oc0bbT2l6ApfsjbY3DEEVUddIKZEBlGl1npzjHHzWnSqWuboSbMZvRqUM01Io9yiIp1wcg==
 
 react-autosuggest@^10.1.0:
   version "10.1.0"
