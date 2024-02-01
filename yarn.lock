@@ -2348,10 +2348,10 @@
   resolved "https://registry.yarnpkg.com/@types/prop-types/-/prop-types-15.7.5.tgz#5f19d2b85a98e9558036f6a3cacc8819420f05cf"
   integrity sha512-JCB8C6SnDoQf0cNycqd/35A7MjcnK+ZTqE7judS6o7utxUCg6imJg3QK2qzHKszlTjcj2cn+NwMB2i96ubpj7w==
 
-"@types/react-autosuggest@^10.1.5":
-  version "10.1.5"
-  resolved "https://registry.yarnpkg.com/@types/react-autosuggest/-/react-autosuggest-10.1.5.tgz#8698576c186d3dd964df90451228d2cf787d0e0f"
-  integrity sha512-qfMzrp6Is0VYRF5a97Bv/+P2F9ZtFY4YE2825yyWV4VxCpvcfvQHEqGNkDFIPme7t3B2BpQ784QBllYAxemERQ==
+"@types/react-autosuggest@^10.1.11":
+  version "10.1.11"
+  resolved "https://registry.yarnpkg.com/@types/react-autosuggest/-/react-autosuggest-10.1.11.tgz#d087dbfc03e092ac742d18b8b80f5986f03929f3"
+  integrity sha512-lneJrX/5TZJzKHPJ6UuUjsh9OfeyQHKYEVHyBh5Y7LeRbCZxyIsjBmpxdPy1iH++Ger0qcyW+phPpYH+g3naLA==
   dependencies:
     "@types/react" "*"
 
