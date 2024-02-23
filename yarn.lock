@@ -1251,10 +1251,32 @@
     "@giphy/js-util" "^4.1.1"
     qs "^6.9.4"
 
+"@giphy/js-fetch-api@^5.4.0":
+  version "5.4.0"
+  resolved "https://registry.yarnpkg.com/@giphy/js-fetch-api/-/js-fetch-api-5.4.0.tgz#d5764e018d810321af6c7c54d9b1b66e802ad8b4"
+  integrity sha512-P/6PEHHOeHcRxNsQV97CwiyxmrRByqReqBtLEvvTqwJw6YUeY81zZGB6g12qpu08P0t5ebVcehvya3mn9sLJbQ==
+  dependencies:
+    "@giphy/js-types" "*"
+    "@giphy/js-util" "*"
+
+"@giphy/js-types@*":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@giphy/js-types/-/js-types-5.0.0.tgz#a47e829cf28b1bafe45d03fe54952ec8e22271dc"
+  integrity sha512-L7q1Skf8nDiShtuU3VfOZs8Ce95SP6FjDefZH3p9qBvl58hlRDfJ0l4k/35+RYUy8t0orU+cEde1QCj0Z8U+uQ==
+
 "@giphy/js-types@^4.2.1":
   version "4.2.1"
   resolved "https://registry.yarnpkg.com/@giphy/js-types/-/js-types-4.2.1.tgz#c0946746c767f00c267ba7b10af6512be87ed3cc"
   integrity sha512-Ii+TvBhQsDHaeS79Y/dSqJTCeH3TirHv9DpbuIzxJ2VDKpsXVuIMrxAybwQ7Ve/mF+kjvEiL7TXtrz9Sc8Zxeg==
+
+"@giphy/js-util@*":
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/@giphy/js-util/-/js-util-5.0.0.tgz#4d4a95f928787f87e149cdb46b5c1e8533249929"
+  integrity sha512-LYBmpcdE2Iumt+Wj1/EUEeAc3NNDrsC4UW64ywlmTO61VTvkgQo0iFC2tZrHV0BENMww1jGsQj+uH82S/UpCGQ==
+  dependencies:
+    "@giphy/js-types" "*"
+    dompurify "^2.2.2"
+    uuid "^9.0.0"
 
 "@giphy/js-util@^4.1.1":
   version "4.1.1"
@@ -10691,6 +10713,11 @@ uuid@^8.3.0, uuid@^8.3.2:
   version "8.3.2"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-8.3.2.tgz#80d5b5ced271bb9af6c445f21a1a04c606cefbe2"
   integrity sha512-+NYs2QeMWy+GWFOEm9xnn6HCDp0l7QBD7ml8zLUmJ+93Q5NF0NocErnwkTkXVFNiX3/fpC6afS8Dhb/gz7R7eg==
+
+uuid@^9.0.0:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-9.0.1.tgz#e188d4c8853cc722220392c424cd637f32293f30"
+  integrity sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==
 
 v8-compile-cache-lib@^3.0.1:
   version "3.0.1"
